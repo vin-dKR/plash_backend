@@ -1,6 +1,5 @@
 const Data = require('../models/model')
 
-
 const postHandle = async (req, res) => {
   const { text } = req.body;
   const { category } = req.body;
